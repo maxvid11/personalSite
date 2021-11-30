@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50px auto auto auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: "Montserrat", serif;
+  font-size: 2.5em;
+  font-weight: normal;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: "Montserrat", serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 7px;
+  border-top-color: grey;
+  width: 5%;
+
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.footer-link{
+  position: relative;
+  top: 50px;
+  padding: 20px;
+  color: #11999e;
+
+}
+
+.copyright{
+  position: relative;
+  top: 85px;
+  color: #eaf6f6;
+
+}
+
+.bottom-container{
+  height: 180px;
+  background-color: #66bfbf;
+}
+
+
+.contact-me {
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+
+}
+
+.contact-description{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+
+.skills{
+  margin-top: 100px;
+}
+
+.profile{
+  width: 30%;
+  margin: 0 auto 100px auto;
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 125px auto 125px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+
+.top-container {
+  background-color: #EAF6F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.pro {
+
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.backend-logo {
+  width: 15%;
+  float: right;
+  margin-left: 50px;
+}
+
+.frontend-logo {
+  width: 15%;
+  float: left;
+  margin-right: 50px;
+}
+
+.profile-pic{
+  width: 250px;
+
+}
